@@ -18,15 +18,28 @@
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
-.nav-links>a {
+.nav-links>.nav-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60px;
+}
+
+.nav-links>.nav-link>a {
     /* Style */
     color: white;
     font-family: "Raleway";
     font-size: 14px;
     font-weight: 400;
+    text-align: right;
+}
+
+.nav-links>.nav-link>a:hover {
+    font-weight: 700;
+    text-decoration-line: underline;
 }
 
 .nav-features {

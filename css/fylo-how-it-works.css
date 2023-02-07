@@ -1,0 +1,38 @@
+.fylo-how-it-works {
+    margin-top: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fylo-how-it-works-content {
+    width: 80%;
+}
+
+.how-it-works-img {
+    width: 100%;
+}
+
+.see-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+}
+
+.more-info {
+    padding-bottom: 10px;
+
+    font-family: "OpenSans";
+    font-size: 12px;
+    color: hsl(176, 68%, 64%);
+    text-underline-offset: 10px;
+}
+
+.link-icon {
+    width: 16px;
+    height: 16px;
+}

@@ -1,0 +1,34 @@
+.nav-bar {
+    /* Size and position */
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 60px;
+
+    /* Style */
+
+    /* Child layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar>.fylo-icon {
+    height: 26px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links>a {
+    /* Style */
+    color: white;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-features {
+    cursor: pointer;
+}

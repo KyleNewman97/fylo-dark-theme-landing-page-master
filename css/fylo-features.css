@@ -1,0 +1,37 @@
+.fylo-features {
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fylo-feature {
+    margin-top: 5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fylo-feature>img {
+    width: 20%;
+}
+
+.feature-heading {
+    margin-top: 1.8rem;
+    margin-bottom: 0px;
+
+    /* Style */
+    color: white;
+    font-family: "Raleway";
+    font-size: 17px;
+}
+
+#security-icon {
+    width: 16%;
+}

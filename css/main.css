@@ -1,0 +1,58 @@
+/* FONTS */
+@font-face {
+    font-family: "Raleway";
+    src: url("/assets/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+/* END FONTS */
+
+body {
+    /* Size and position */
+    margin: 0px;
+
+    /* Style */
+    background-color: hsl(218, 28%, 13%)
+}
+
+.fylo-icon {
+    content: url("/images/logo.svg");
+}
+
+.main-heading {
+    /* Style */
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.sub-heading {
+    /* Style */
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.paragraph-body {
+    /* Style */
+    color: white;
+    font-family: "OpenSans";
+    font-weight: 200;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.page-content {
+    position: relative;
+}
+
+.left-aligned {
+    text-align: left;
+}

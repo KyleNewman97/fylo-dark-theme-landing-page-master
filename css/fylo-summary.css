@@ -1,0 +1,47 @@
+.fylo-summary {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.fylo-summary>h1 {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+
+    text-align: center;
+    line-height: 2rem;
+}
+
+.fylo-summary>p {
+    margin-top: 1rem;
+}
+
+.main-img {
+    margin-top: 2rem;
+    width: 90%;
+
+    content: url("/images/illustration-intro.png")
+}
+
+.cta-button {
+    /* Size */
+    width: 80%;
+    margin-top: 1rem;
+    height: 3rem;
+
+    /* Style */
+    background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border: 0px;
+    border-radius: 1.5rem;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+
+    cursor: pointer;
+}

@@ -45,3 +45,7 @@
 
     cursor: pointer;
 }
+
+.cta-button:active {
+    background: hsl(176, 68%, 64%);
+}

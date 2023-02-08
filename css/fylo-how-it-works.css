@@ -32,6 +32,10 @@
     text-underline-offset: 10px;
 }
 
+.more-info:hover {
+    color: white;
+}
+
 .link-icon {
     width: 16px;
     height: 16px;

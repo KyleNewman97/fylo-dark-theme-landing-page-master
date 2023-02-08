@@ -153,8 +153,11 @@
         <p class="paragraph-body">It only takes a minute to sign up and our free starter tier is extremely generous. If
           you have any questions, our support team would be happy to help you.</p>
 
-        <input class="email-input" type="email" name="email" placeholder="email@example.com" />
-        <button class="cta-button">Get Started For Free</button>
+        <form>
+          <input class="email-input" id="trial-email-input" type="email" name="email" placeholder="email@example.com" />
+          <!-- <p class="input-error">Please enter a valid email address</p> -->
+          <button class="cta-button" id="trial-email-submit">Get Started For Free</button>
+        </form>
       </section>
     </section>
 
@@ -182,21 +185,23 @@
           </section>
         </section>
 
-        <section class="more-info-links">
-          <a class="footer-link">About Us</a>
-          <a class="footer-link">Jobs</a>
-          <a class="footer-link">Press</a>
-          <a class="footer-link">Blog</a>
-        </section>
+        <div class="more-info-links">
+          <div class="footer-link-section"><a class="footer-link">About Us</a></div>
+          <div class="footer-link-section"><a class="footer-link">Jobs</a></div>
+          <div class="footer-link-section"><a class="footer-link">Press</a></div>
+          <div class="footer-link-section"><a class="footer-link">Blog</a></div>
+          </nav>
 
-        <section class="help-links">
-          <a class="footer-link">Contact Us</a>
-          <a class="footer-link">Term</a>
-          <a class="footer-link">Privacy</a>
-        </section>
+          <nav class="help-links">
+            <div class="footer-link-section"><a class="footer-link">Contact Us</a></div>
+            <div class="footer-link-section"><a class="footer-link">Term</a></div>
+            <div class="footer-link-section"><a class="footer-link">Privacy</a></div>
+          </nav>
       </section>
     </footer>
   </section>
+
+  <script src="/javascript/validate-email-input.js"></script>
 </body>
 
 </html>

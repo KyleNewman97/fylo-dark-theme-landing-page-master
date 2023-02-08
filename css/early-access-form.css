@@ -9,7 +9,7 @@
 
 .early-access-form>.content {
     box-sizing: border-box;
-    width: 80%;
+    width: 90%;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -29,7 +29,8 @@
     border-radius: 3rem;
     width: 100%;
     margin-top: 0.8rem;
-    padding-left: 20px;
+    margin-bottom: 0px;
+    padding-left: 1.4rem;
 
     background-color: white;
     border-color: transparent;
@@ -43,8 +44,17 @@
     color: lightgray;
 }
 
-.early-access-form>.content>.cta-button {
+.early-access-form>.content>form>.cta-button {
     width: 100%;
     margin-bottom: 2.5rem;
     font-size: 0.9rem;
+}
+
+.input-error {
+    margin-top: 0.2rem;
+    margin-bottom: 0rem;
+    margin-left: 1.4rem;
+    color: hsl(0, 100%, 63%);
+    font-family: "OpenSans";
+    font-size: 0.6rem;
 }

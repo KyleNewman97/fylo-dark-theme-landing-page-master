@@ -56,10 +56,13 @@
     margin-top: 3rem;
 }
 
-.footer-link {
+.footer-link-section {
     display: block;
     margin-bottom: 1em;
-    ;
+}
+
+.footer-link {
+    display: inline;
 
     font-family: "OpenSans";
     color: white;
@@ -67,4 +70,8 @@
     font-size: 16px;
 
     cursor: pointer;
+}
+
+.footer-link:hover {
+    font-weight: 700;
 }
